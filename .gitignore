@@ -1,4 +1,2 @@
 *.exe
-Linked_List/*.exe
-/*/*.exe
-*.[exe]
+/Linked_List/*.exe
