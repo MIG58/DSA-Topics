@@ -1,2 +1,3 @@
-*.exe
-/Linked_List/ *.exe
+
+/Linked_List/LL_create.exe
+/**/*.exe
