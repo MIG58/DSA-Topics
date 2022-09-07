@@ -9,11 +9,15 @@ typedef struct List
 
 void LinkedList_Traversal(lnk *ptr) // Function to traverse the Linked List
 {
+    printf("ptr Init = %p\n", ptr);
     while (ptr != NULL)
     {
 
-        printf("[%d|%s]-->", ptr->val, ptr->next);
-        ptr = ptr->next;
+        printf("ptr -> val: %d\n", ptr->val);
+        // printf("%d\n", ptr->next);
+        printf("ptr before = %p\n", ptr);
+        ptr = ptr->next; // pointing to next node
+        printf("ptr after = %p\n", ptr);
     }
 }
 int main()
